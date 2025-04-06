@@ -1,0 +1,59 @@
+.wcommunity-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wcommunity-header {
+    background-color: #b76e79;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wcommunity-header h1 {
+    margin: 0;
+  }
+  
+  .wcommunity-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .wcommunity-header nav ul li {
+    margin: 0 15px;
+  }
+  
+  .wcommunity-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .welcome-section {
+    background-color: #ff80ab;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 80%;
+    color: white;
+  }
+  
+  .women-join-btn {
+    background-color: white;
+    color: #b76e79;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .join-btn:hover {
+    background-color: #fce4ec;
+  }
+  

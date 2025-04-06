@@ -1,0 +1,64 @@
+/* Centering the form container in the middle of the page */
+.men-auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color:  #c8afcad0; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: auto;
+    
+    /* Centering the container */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.men-auth-container h2 {
+    margin-bottom: 20px;
+}
+
+.men-auth-container input,
+.men-auth-container select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.men-auth-container button {
+    padding: 10px;
+    background-color: #811818e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for buttons */
+.men-auth-container button:hover {
+    background-color: #b30000; /* Darker red on hover */
+}
+
+.men-auth-container p span {
+    color: #330606ec;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none; /* No underline by default */
+    transition: text-decoration 0.3s ease;
+}
+
+/* Underline effect on hover */
+.men-auth-container p span:hover {
+    text-decoration: underline;
+}
+

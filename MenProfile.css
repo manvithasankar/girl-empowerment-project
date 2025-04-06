@@ -1,0 +1,51 @@
+.men-profile-container {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  .men-profile-card {
+    background: #d7b7ecee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .men-profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+  }
+  
+  .men-profile-details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .men-profile-details label {
+    font-weight: bold;
+  }
+  
+  .men-profile-details p,
+  .men-profile-details input {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 1px;
+    padding: 10px;
+    border: none;
+    background-color: #991616;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #cb4a4a;
+  }
+  

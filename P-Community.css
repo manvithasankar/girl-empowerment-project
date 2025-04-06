@@ -1,0 +1,31 @@
+.policecommunity-container {
+  text-align: center !important;
+  font-family: Arial, sans-serif !important;
+  padding: 20px !important;
+}
+
+.police-welcome-section {
+  background-color: #d3a555 !important;
+  padding: 50px !important;
+  border-radius: 10px !important;
+  margin: 30px auto !important;
+  width: 80% !important;
+  color: white !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.police-join-btn {
+  background-color: #dc2929 !important;
+  color: rgb(173, 15, 15) !important;
+  border: none !important;
+  padding: 12px 24px !important;
+  font-size: 18px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.police-join-btn:hover {
+  background-color: #a71c1c !important;
+}
